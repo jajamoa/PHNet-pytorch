@@ -20,3 +20,7 @@
 
 `python model/train.py /dataset/Venice/train_data.json /dataset/Venice/test_data.json 1 --gpu 0,1 -bs 8 --pre /model/PHnet_checkpoint.pth`
 
+## Authors & Contributors
+
+PHNet is authored by [Jiajie Li](https://github.com/LeeJAJA), Shiqiao Meng, Weiwei Guo, Lai Ye and Jinfeng Jiang from Tongji University. [Jiajie Li](https://github.com/LeeJAJA) is the corresponding author. The code is developed by [Jiajie Li](https://github.com/LeeJAJA) and Shiqiao Meng. Currently, it is being maintained by [Jiajie Li](https://github.com/LeeJAJA).
+
