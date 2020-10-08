@@ -18,14 +18,14 @@ def load_data(img_path,train = True, direct = False, code = 1):
     gt_path = img_path.replace('.png','.h5').replace("img1",'target'+code).replace('.jpg','.h5')
 
     for root, dir, filenames in os.walk(img_path):
-        if train == True:
+        if train is True:
             aug = 0
         else:
             aug = 0
         for i in range(len(filenames)):
             if i == 0:
                 img =  np.array(Image.open(img_path + "/" + filenames[i]).convert('RGB'))
-                if direct == True:
+                if direct is True:
                     return transform2(img)
                 img = transform(img)
                 image = img
