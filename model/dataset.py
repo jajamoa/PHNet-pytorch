@@ -1,9 +1,5 @@
-import os
 import random
-import torch
-import numpy as np
 from torch.utils.data import Dataset
-from PIL import Image
 from image import *
 from torchvision import transforms
 import torchvision.transforms.functional as F
