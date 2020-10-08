@@ -1,4 +1,4 @@
-import os,os.path,re,shutil,json,random,glob,h5py,cv2
+import os,os.path,re,shutil,h5py,cv2
 
 SOURCE_PATH = '/.Venice/venice'
 EXPORT_PATH = '/.Venice/img_roi'

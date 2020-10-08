@@ -1,4 +1,4 @@
-import os,os.path,re,shutil,json,random,glob,h5py,cv2
+import os,os.path,re,shutil,json
 IMAGE_NUM = 2
 SOURCE_PATH = '/.Venice/img_roi'
 EXPORT_PATH = '/.Venice/ablation' + str(IMAGE_NUM)

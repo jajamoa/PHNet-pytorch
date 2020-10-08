@@ -4,14 +4,9 @@ import scipy.io as io
 import PIL.Image as Image
 import numpy as np
 import os
-import glob
 import scipy
-from matplotlib import pyplot as plt
-from scipy.ndimage.filters import gaussian_filter
 import scipy.spatial as ss
-import json
 import re
-from matplotlib import cm as CM
 
 SOURCE_LABEL_PATH = '/.Venice/venice'
 DST_LABEL_PATH = '/.Venice/density_map_init'

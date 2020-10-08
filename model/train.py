@@ -1,18 +1,12 @@
-import sys
 import os
-import warnings
 from model import PHNet
 from utils import save_checkpoint
 
 import torch
 import torch.nn as nn
-from torch.autograd import Variable
-from torchvision import datasets, transforms
-
-import numpy as np
+from torchvision import transforms
 import argparse
 import json
-import cv2
 import dataset
 import time
 
